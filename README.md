@@ -21,7 +21,7 @@ ___
 ### Data has been collected from the [‘Best Books of the Decade: 2010's’](https://www.goodreads.com/list/show/4093.Best_Books_of_the_Decade_2010_s?page=1) list.
 #### Below is an example of the list page.
 
-![List Image]()
+![List Image](https://raw.githubusercontent.com/ritik-k/good_reads/master/images/list.png)
 
 #### Here we can see few of the elements that we collect for analysis such as :
 * Book Title
@@ -31,7 +31,7 @@ ___
 ##### among others.
 #### In order to collect more detailed information about each book we access each individual book's url :
 
-![Book Image]()
+![Book Image](https://raw.githubusercontent.com/ritik-k/good_reads/master/images/book.png)
 
 #### Here we can see few of the elements that we collect for analysis such as :
 * Book Description
@@ -54,9 +54,9 @@ ___
 
 ## Data Analysis :
 
-* [Distribution of Average Rating]()
-* [Distribution of Genre]()
-* [Wordclouds for Book Titles, Author names and Description]()
+* [Distribution of Average Rating](https://github.com/ritik-k/good_reads#average-rating-)
+* [Distribution of Genre](https://github.com/ritik-k/good_reads#genre-)
+* [Wordclouds for Book Titles, Author names and Description](https://github.com/ritik-k/good_reads#wordcloud-)
 * Distribution of Number of Pages and further analysis can be found in the jupyter notebook.
 ### Average Rating :
 ![Average Rating Histogram](https://raw.githubusercontent.com/ritik-k/good_reads/master/gifs/avg_r.gif)
@@ -93,16 +93,16 @@ ___
 
 ### Wordcloud :
 #### Book Title :
-![titles]()
-#### We set min_word_length = 4 to discard words such as 'the, is, it, an, etc'
+![titles](https://raw.githubusercontent.com/ritik-k/good_reads/master/wordcloud/title.png)
+#### We set the minimum word length to 4 to discard words such as 'the, is, it, an, etc'
 
 #### Author :
-![author]()
+![author](https://raw.githubusercontent.com/ritik-k/good_reads/master/wordcloud/author.png)
 #### The abover wordcloud contains names of some legendary authors such as : Stephen King and Rick Riordan and certain generic names such as John, David, Robert and James.
 
 
 #### Description:
-![Description]()
+![Description](https://raw.githubusercontent.com/ritik-k/good_reads/master/wordcloud/description.png)
 
 ___
 ### Usage and Interactive plots:
